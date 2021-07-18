@@ -1,0 +1,77 @@
+.btn-cont {
+    text-align: center;
+}
+.btn {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.fight {
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+}
+
+.fight:hover {
+    background-color: white;
+    color: black;
+}
+
+.newRanger {
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+}
+
+.newRanger:hover {
+    background-color: white;
+    color: black;
+}
+
+.stop {
+    background-color: #f44336;
+    color: white;
+    border: 2px solid #f44336;
+}
+
+.stop:hover {
+    background-color: white;
+    color: black;
+}
+
+.button5 {
+    border: 2px solid #555555;
+    background-color: #555555;
+    color: white;
+}
+
+.button5:hover {
+    color: black;
+    background-color: white;
+}
+
+.btn[disabled] {
+    opacity: 0.7;
+}
+
+.stop[disabled]:hover {
+    background-color: #f44336;
+    color: white;
+    cursor: initial;
+}
+
+.fight[disabled]:hover {
+    background-color: #4CAF50;
+    color: white;
+    cursor: initial;
+}
